@@ -8,15 +8,15 @@
 		<div role="application" class="panel panel-group" >
 			@include('provedores.head')
 			@include('provedores.links')
-			<div class="panel panel-default">
-				<div class="panel-heading">
+			<div class="card mb-5">
+				<div class="card-header">
 					<div class="row">
 						<div class="col-sm-4">
 							<h5>Dirección Física: <small><i class="fa fa-asterisk" aria-hidden="true"></i>Campos Requeridos</small></h5>
 						</div>
 					</div>
 				</div>
-				<div class="panel-body">
+				<div class="card-body">
 					<div class="row">
 						<div class="form-group col-sm-3">
 	    					<label class="control-label" for="calle"><small><small><i class="fa fa-asterisk" aria-hidden="true"></i></small></small> Calle:</label>

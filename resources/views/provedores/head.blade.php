@@ -19,34 +19,34 @@
 	<div class="card-body">
 		<div class="row">
 			  <div class="form-group col-sm-3">
-				<label class="control-label" for="tipopersona">Tipo de Persona:</label>
+				<label class="control-label" for="tipopersona"><strong>Tipo de Persona:</strong></label>
 				<dd>{{ $provedore->tipopersona }}</dd>
 			  </div>
 			@if($provedore->tipopersona == "Fisica")
 				<div class="form-group col-sm-3">
-					  <label class="control-label" for="nombre">Nombre(s):</label>
+					  <label class="control-label" for="nombre"><strong>Nombre(s):</strong></label>
 					  <dd>{{ $provedore->nombre }}</dd>
 				  </div>
 				  <div class="form-group col-sm-3">
-					  <label class="control-label" for="apellidopaterno">Apellido Paterno:</label>
+					  <label class="control-label" for="apellidopaterno"><strong>Apellido Paterno:</strong></label>
 					  <dd>{{ $provedore->apellidopaterno }}</dd>
 				  </div>
 				  <div class="form-group col-sm-3">
-					  <label class="control-label" for="apellidomaterno">Apellido Materno:</label>
+					  <label class="control-label" for="apellidomaterno"><strong>Apellido Materno:</strong></label>
 					  <dd>{{ $provedore->apellidomaterno }}</dd>
 				  </div>
 			@else
 				<div class="form-group col-sm-3">
-					  <label class="control-label" for="razonsocial">Razon Social:</label>
+					  <label class="control-label" for="razonsocial"><strong>Razón Social:</strong></label>
 					  <dd>{{ $provedore->razonsocial }}</dd>
 				  </div>
 			@endif
 			  <div class="form-group col-sm-3">
-				  <label class="control-label" for="rfc">RFC:</label>
+				  <label class="control-label" for="rfc"><strong>RFC:</strong></label>
 				  <dd>{{ $provedore->rfc }}</dd>
 			  </div>
 			<div class="form-group col-sm-3">
-				<label class="control-label" for="rfc">Correo Electrónico:</label>
+				<label class="control-label" for="rfc"><strong>Correo Electrónico:</strong></label>
 				<dd> {{ $provedore->email }}</dd>
 			</div>
 		</div>
