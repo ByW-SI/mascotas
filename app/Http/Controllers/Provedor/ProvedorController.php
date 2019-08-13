@@ -55,21 +55,14 @@ class ProvedorController extends Controller{
      */
     public function store(Request $request)
     {
-        //
         $provedore = Provedor::where('rfc',$request->rfc)->get();
-        // dd(count($provedore));
         if (count($provedore) != 0) {
-            # code...
-            // alert()->error('Error Message', 'Optional Title');
-            // return redirect()->route('clientes.create');
             return redirect()->back()->with('errors', 'El RFC ya existe');
         } else {
-            # code...
             $provedore = Provedor::create($request->all());
             Alert::success("Proveedor creado con exito, sigue agregando información")->persistent("Cerrar");
             return redirect()->route('provedores.direccionfisica.create',['provedore'=>$provedore]);
         }
-        
     }
 
     /**

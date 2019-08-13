@@ -27,8 +27,8 @@
 			{{-- @endif
 			@endforeach --}}
 		</ul>
-		<div class="panel panel-default">
-			<div class="panel-heading">
+		<div class="card mb-5">
+			<div class="card-header">
 				<div class="row">
 					<div class="col-sm-4">
 						<h5>
@@ -37,7 +37,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				<form role="form" name="domicilio" id="form-cliente" method="POST" action="{{ route('provedores.contacto.store', ['provedore'=>$provedore]) }}" name="form">
 					{{ csrf_field() }}
 					<input type="hidden" name="provedor_id" value="{{$provedore->id}}" required>

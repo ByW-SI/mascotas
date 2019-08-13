@@ -8,19 +8,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                         <i class="fa fa-lock"></i><strong> Seguridad</strong>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{-- route('perfils.index') --}}">
+                        <a class="dropdown-item" href="#">
                             <i class="fa fa-universal-access"></i><strong> Perfiles</strong>
                         </a>
-                        <a class="dropdown-item" href="{{-- route('usuarios.index') --}}">
+                        <a class="dropdown-item" href="#">
                             <i class="fa fa-user-circle"></i><strong> Usuarios</strong>
                         </a>
                     </div>
-                </li>              
+                </li>  --}}
+                             
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                         <i class="fas fa-briefcase"></i><strong> Recursos Humanos</strong>
@@ -30,7 +31,7 @@
                         <a class="dropdown-item" href="{{ url('empleados') }}"><span>Buscar</span><i class="fa fa-search float-right"></i></a>
                     </div>
                 </li>  
-                <li class="nav-item dropdown">
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                        <i class="fas fa-book-open"></i><strong> Servicios</strong>
                     </a>
@@ -38,8 +39,8 @@
                         <a class="dropdown-item" href="{{ route('provedores.create') }}"><span>Alta</span><i class="fa fa-plus float-right"></i></a>
                         <a class="dropdown-item" href="{{ route('provedores.index') }}"><span>Buscar</span><i class="fa fa-search float-right"></i></a>
                     </div>
-                </li> 
-                <li class="nav-item dropdown">
+                </li>  --}}
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                         <i class="fas fa-cart-arrow-down"></i><strong> Punto de venta</strong>
                     </a>
@@ -47,8 +48,8 @@
                         <a class="dropdown-item" href="{{ route('provedores.create') }}"><span>lorem</span><i class="fa fa-plus float-right"></i></a>
                         <a class="dropdown-item" href="{{ route('provedores.index') }}"><span>lorem</span><i class="fa fa-search float-right"></i></a>
                     </div>
-                </li> 
-                <li class="nav-item dropdown">
+                </li>  --}}
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                         <i class="fas fa-file-invoice"></i><strong> Reportes</strong>
                     </a>
@@ -56,7 +57,7 @@
                         <a class="dropdown-item" href="{{ route('provedores.create') }}"><span>lorem</span><i class="fa fa-plus float-right"></i></a>
                         <a class="dropdown-item" href="{{ route('provedores.index') }}"><span>lorem</span><i class="fa fa-search float-right"></i></a>
                     </div>
-                </li>   
+                </li>    --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                         <i class="fas fa-truck"></i><strong> Provedores</strong>
@@ -66,7 +67,7 @@
                         <a class="dropdown-item" href="{{ route('provedores.index') }}"><span>Buscar</span><i class="fa fa-search float-right"></i></a>
                     </div>
                 </li> 
-                <li class="nav-item dropdown">
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                         <i class="fas fa-paw"></i><strong> Pet life</strong>
                     </a>
@@ -74,26 +75,15 @@
                         <a class="dropdown-item" href="{{ route('pacientes.create') }}"><span>Alta Paciente</span> <i class="fa fa-plus float-right"></i></a>
                         <a class="dropdown-item" href="{{ route('pacientes.index') }}"><span>Buscar Paciente</span> <i class="fa fa-search"></i></a>
                     </div>
-                </li>                      
-                <li class="nav-item dropdown">
+                </li>                       --}}
+                {{-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
                         <strong><i class="fas fa-redo-alt"></i> Precargas</strong>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ route('razas.index') }}"><i class="fas fa-feather"></i> Razas</a>
-                        {{-- <a class="dropdown-item" href="}">Descuentos<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Contratos<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Faltas<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Áreas<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Puestos<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Bajas<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Bancos<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Niveles<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Estados<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Giros<i class="fa fa-plus float-right"></i></a>
-                        <a class="dropdown-item" href="">Hospitales<i class="fa fa-plus float-right"></i></a> --}}
                     </div>
-                </li>    
+                </li>     --}}
                 
                 
                 

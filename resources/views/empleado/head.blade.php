@@ -15,35 +15,35 @@
 				</div>
 				<div class="row mt-3">
 					<div class="form-group col-sm-3">
-						<label class="control-label" for="identificador">ID de empleado:</label>
+						<label class="control-label" for="identificador"><strong>ID de empleado:</strong></label>
 						<dd>{{ $empleado->identificador}}</dd>
 
 					</div>
 					<div class="form-group col-sm-3">
-						<label class="control-label" for="contrato">Tipo de empleado:</label>
+						<label class="control-label" for="contrato"><strong>Tipo de empleado:</strong></label>
 						<dd>{{$empleado->tipo}}</dd>
 
 					</div>
 					<div class="form-group col-sm-3">
-						<label class="control-label" for="contrato">Fecha de nacimiento:</label>
+						<label class="control-label" for="contrato"><strong>Fecha de nacimiento:</strong></label>
 						<dd>{{$empleado->fnac}}</dd>
 					</div>
 				</div>
 				<div class="row">
 					<div class="form-group col-sm-3">
-						<label class="control-label" for="appaterno">Apellido Paterno:</label>
+						<label class="control-label" for="appaterno"><strong>Apellido Paterno:</strong></label>
 						<dd>{{ $empleado->appaterno }}</dd>
 					</div>
 					<div class="form-group col-sm-3">
-						<label class="control-label" for="apmaterno">Apellido Materno:</label>
+						<label class="control-label" for="apmaterno"><strong>Apellido Materno:</strong></label>
 						<dd>{{ $empleado->apmaterno }}</dd>
 					</div>
 					<div class="form-group col-sm-3">
-						<label class="control-label" for="nombre">Nombre(s):</label>
+						<label class="control-label" for="nombre"><strong>Nombre(s):</strong></label>
 						<dd>{{ $empleado->nombre }}</dd>
 					</div>
 					<div class="form-group col-sm-3">
-						<label class="control-label" for="rfc">*RFC:</label>
+						<label class="control-label" for="rfc"><strong>*RFC:</strong></label>
 						<dd>{{ $empleado->rfc }}</dd>
 					</div>
 				</div>
@@ -76,109 +76,109 @@
 								<div class="card-body">
 									<div class="row">
 										<div class="form-group col-sm-4">
-											<label class="control-label" for="telefono">Teléfono:</label>
+											<label class="control-label" for="telefono"><strong>Teléfono:</strong></label>
 											<dd>{{ $empleado->telefono }}</dd>
 										</div>
 										<div class="form-group col-sm-4">
-											<label class="control-label" for="movil">Celular:</label>
+											<label class="control-label" for="movil"><strong>Celular:</strong></label>
 											<dd>{{ $empleado->movil }}</dd>
 										</div>
 										<div class="form-group col-sm-4">
-											<label class="control-label" for="email">Correo electrónico:</label>
+											<label class="control-label" for="email"><strong>Correo electrónico:</strong></label>
 											<dd>{{ $empleado->email }}</dd>
 										</div>
 									</div>
 									<div class="row">
 										<div class="form-group col-sm-3">
-											<label for="nacionalidad" class="control-label">Nacionalidad:</label>
+											<label for="nacionalidad" class="control-label"><strong>Nacionalidad:</strong></label>
 											<dd>{{$empleado->nacionalidad}}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label for="edo_civil" class="control-label">Estado civil:</label>
+											<label for="edo_civil" class="control-label"><strong>Estado civil:</strong></label>
 											<dd>{{$empleado->edo_civil}}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="padre">Nombre completo del padre:</label>
+											<label class="control-label" for="padre"><strong>Nombre completo del padre:</strong></label>
 											<dd>{{$empleado->padre}}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="madre">Nombre completo de la madre:</label>
+											<label class="control-label" for="madre"><strong>Nombre completo de la madre:</strong></label>
 											<dd>{{$empleado->madre}}</dd>
 										</div>
 									</div>
 									<div class="row">
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="conyugue">Nombre completo del conyugue (en caso de tenerlo):</label>
+											<label class="control-label" for="conyugue"><strong>Nombre completo del conyugue (en caso de tenerlo):</strong></label>
 											<dd>{{ $empleado->conyugue }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="dependientes">Número de dependientes económicos:</label>
+											<label class="control-label" for="dependientes"><strong>Número de dependientes económicos:</strong></label>
 											<dd>{{ $empleado->dependientes }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="ref_pers">Nombre completo de la referencia personal:</label>
+											<label class="control-label" for="ref_pers"><strong>Nombre completo de la referencia personal:</strong></label>
 											<dd>{{ $empleado->ref_pers }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="tel_ref_pers">Teléfono de la referencia personal:</label>
+											<label class="control-label" for="tel_ref_pers"><strong>Teléfono de la referencia personal:</strong></label>
 											<dd>{{ $empleado->tel_ref_pers }}</dd>
 										</div>
 									</div>
 									<div class="row">
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="nss">Número de Seguro Social (IMSS):</label>
+											<label class="control-label" for="nss"><strong>Número de Seguro Social (IMSS):</strong></label>
 											<dd>{{ $empleado->nss }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="curp">C.U.R.P.:</label>
+											<label class="control-label" for="curp"><strong>C.U.R.P.:</strong></label>
 											<dd>{{ $empleado->curp }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="infonavit">Número Infonavit:</label>
+											<label class="control-label" for="infonavit"><strong>Número Infonavit:</strong></label>
 											<dd>{{ $empleado->infonavit }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="cp">Código Postal:</label>
+											<label class="control-label" for="cp"><strong>Código Postal:</strong></label>
 											<dd>{{ $empleado->cp }}</dd>
 										</div>
 									</div>
 									<div class="row">
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="calle">Calle:</label>
+											<label class="control-label" for="calle"><strong>Calle:</strong></label>
 											<dd>{{ $empleado->calle }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="numext">Número Exterior:</label>
+											<label class="control-label" for="numext"><strong>Número Exterior:</strong></label>
 											<dd>{{ $empleado->numext }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="numint">Número Interior:</label>
+											<label class="control-label" for="numint"><strong>Número Interior:</strong></label>
 											<dd>{{ $empleado->numint }}</dd>
 										</div><div class="form-group col-sm-3">
-											<label class="control-label" for="colonia">Colonia:</label>
+											<label class="control-label" for="colonia"><strong>Colonia:</strong></label>
 											<dd>{{ $empleado->colonia }}</dd>
 										</div>
 									</div>
 									<div class="row">
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="municipio">Delegación/Municipio:</label>
+											<label class="control-label" for="municipio"><strong>Delegación/Municipio:</strong></label>
 											<dd>{{ $empleado->municipio }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="estado">Estado:</label>
+											<label class="control-label" for="estado"><strong>Estado:</strong></label>
 											<dd>{{ $empleado->estado }}</dd>
 										</div>
 										<div class="form-group col-sm-3">
-											<label class="control-label" for="calles">Entre calles:</label>
+											<label class="control-label" for="calles"><strong>Entre calles:</strong></label>
 											<dd>{{ $empleado->calles }}</dd>
 										</div><div class="form-group col-sm-3">
-											<label class="control-label" for="referencia">Referencia:</label>
+											<label class="control-label" for="referencia"><strong>Referencia:</strong></label>
 											<dd>{{ $empleado->referencia }}</dd>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-sm-12 text-center">
-											<a href="{{ route('empleados.edit',['empleado'=>$empleado]) }}" class="btn btn-success">
+											<a href="#" class="btn btn-success">
 											 	<strong>Editar</strong>
 											</a>
 										</div>
