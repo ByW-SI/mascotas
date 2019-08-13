@@ -14,7 +14,7 @@
 						<i class="fa fa-plus"></i><strong> Agregar Empleado</strong>
 					</a>
 				</div>
-				<div class="col-sm-4 text-center">
+				<div class="col-sm-4 text-right">
 					<a href="{{ route('empleados.index') }}" class="btn btn-primary">
 						<i class="fa fa-bars"></i><strong> Lista de Empleados</strong>
 					</a>
@@ -81,7 +81,9 @@
 					</div>
 					<div class="panel-footer">
 						<div class="row">
-							<div class="col-sm-4 col-sm-offset-4 text-center">
+							<div class="col-sm-4">
+							</div>
+							<div class="col-sm-4 text-center">
 								<button type="submit" class="btn btn-success"><i class="fa fa-check-circle" aria-hidden="true"></i> Guardar</button>
 							</div>
 							<div class="col-sm-4 text-right text-danger">

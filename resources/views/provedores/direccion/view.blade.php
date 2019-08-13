@@ -36,47 +36,47 @@
 			<div class="card-body">
 				<div class="row">
 					<div class="form-group col-sm-3">
-    					<label class="control-label" for="calle">Calle:</label>
+    					<label class="control-label" for="calle"><strong>Calle:</strong></label>
     					<dd>{{$direccion->calle}}</dd>
   					</div>
   					<div class="form-group col-sm-3">
-    					<label class="control-label" for="numext">Numero exterior:</label>
+    					<label class="control-label" for="numext"><strong>Numero exterior:</strong></label>
     					<dd>{{$direccion->numext}}</dd>
   					</div>	
   					<div class="form-group col-sm-3">
-    					<label class="control-label" for="numint">Numero interior:</label>
+    					<label class="control-label" for="numint"><strong>Numero interior:</strong></label>
     					<dd>{{$direccion->numint}}</dd>
   					</div>		
 				</div>
 				<div class="row" id="perfisica">
 					<div class="form-group col-sm-3">
-  						<label class="control-label" for="colonia">Colonia:</label>
+  						<label class="control-label" for="colonia"><strong>Colonia:</strong></label>
   						<dd>{{$direccion->colonia}}</dd>
   					</div>
   					<div class="form-group col-sm-3">
-  						<label class="control-label" for="municipio">Delegación o Municipio:</label>
+  						<label class="control-label" for="municipio"><strong>Delegación o Municipio:</strong></label>
   						<dd>{{$direccion->municipio}}</dd>
   					</div>
   					<div class="form-group col-sm-3">
-  						<label class="control-label" for="ciudad">Ciudad:</label>
+  						<label class="control-label" for="ciudad"><strong>Ciudad:</strong></label>
   						<dd>{{$direccion->ciudad}}</dd>
   					</div>
   					<div class="form-group col-sm-3">
-  						<label class="control-label" for="estado">Estado:</label>
+  						<label class="control-label" for="estado"><strong>Estado:</strong></label>
   						<dd>{{$direccion->estado}}</dd>
   					</div>
 				</div>
 				<div class="row" id="perfisica">
 					<div class="form-group col-sm-3">
-  						<label class="control-label" for="calle1">Entre calle:</label>
+  						<label class="control-label" for="calle1"><strong>Entre calle:</strong></label>
   						<dd>{{$direccion->calle1}}</dd>
   					</div>
   					<div class="form-group col-sm-3">
-  						<label class="control-label" for="calle2">Y calle:</label>
+  						<label class="control-label" for="calle2"><strong>Y calle:</strong></label>
   						<dd>{{$direccion->calle2}}</dd>
   					</div>
   					<div class="form-group col-sm-3">
-  						<label class="control-label" for="referencia">Referencia:</label>
+  						<label class="control-label" for="referencia"><strong>Referencia:</strong></label>
   						<dd>{{$direccion->referencia}}</dd>
   					</div>
 				</div>

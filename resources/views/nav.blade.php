@@ -60,7 +60,7 @@
                 </li>    --}}
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                        <i class="fas fa-truck"></i><strong> Provedores</strong>
+                        <i class="fas fa-truck"></i><strong> Proveedores</strong>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ route('provedores.create') }}"><span>Alta</span><i class="fa fa-plus float-right"></i></a>

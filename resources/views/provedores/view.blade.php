@@ -46,13 +46,13 @@
 						<dd>{{ $provedore->municipio }}</dd>
 					</div>
 					<div class="form-group col-3">
-						<label class="control-label" for="calle1">Entre calles:</label>
+						<label class="control-label" for="calle1"><strong>Entre calles:</strong></label>
 						<dd>{{ $provedore->calle1 ? $provedore->calle1 : 'N/A' }}</dd>
 					</div>
 				</div>
 				<div class="row">
 					<div class="form-group col-3">
-						<label class="control-label" for="referencia">Referencia:</label>
+						<label class="control-label" for="referencia"><strong>Referencia:</strong></label>
 						<dd>{{ $provedore->referencia ? $provedore->referencia : 'N/A' }}</dd>
 					</div>
 				</div>
