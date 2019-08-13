@@ -29,17 +29,17 @@
 			{{-- @endif
 			@endforeach --}}
 		</ul>
-			<div class="panel panel-default">
+			<div class="card mb-5">
 				 <input type="hidden" name="provedor_id" value="{{$provedore->id}}">
-				 <div class="panel-default">
-					<div class="panel-heading">
+				 {{-- <div class="panel-default"> --}}
+					<div class="card-header">
 						<div class="row">
 							<div class="col-sm-4">
 								<h5>Dirección Fiscal: <small><small><i class="fa fa-asterisk" aria-hidden="true"></i>Campos Requeridos</small></small></h5>
 							</div>
 						</div>
 					</div>
-					<div class="panel-body">
+					<div class="card-body">
 						<div class="row text-right">
 							<div class="col-sm-12">
 								<div class="toogle-group">
@@ -107,7 +107,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				{{-- </div> --}}
 			</div>
 		</div>
 	</form>

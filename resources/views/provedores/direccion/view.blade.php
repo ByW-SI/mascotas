@@ -5,9 +5,7 @@
 	<div role="application" class="panel panel-group">
 		@include('provedores.head')
 		<ul role="tablist" class="nav nav-pills">
-			{{-- @foreach(Auth::user()->perfil->componentes as $cmp)
-			@if($cmp->nombre == 'ver proveedor')
- --}}			<li class="nav-item">
+			<li class="nav-item">
 				<a href="{{ route('provedores.show',['provedore'=>$provedore]) }}" class="nav-link">Dirección Fìsica:</a>
 			</li>
 			{{-- @endif
@@ -27,15 +25,15 @@
 			{{-- @endif
 			@endforeach --}}
 		</ul>
-		<div class="panel panel-default">
-			<div class="panel-heading">
+		<div class="card mb-5">
+			<div class="card-header">
 				<div class="row">
 					<div class="col-sm-4">
 						<h5>Dirección Fiscal:</h5>
 					</div>
 				</div>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				<div class="row">
 					<div class="form-group col-sm-3">
     					<label class="control-label" for="calle">Calle:</label>

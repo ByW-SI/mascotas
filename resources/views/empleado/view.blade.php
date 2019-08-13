@@ -16,7 +16,7 @@
 			<div class="panel-heading">
 				<div class="row">
 					<div class="col-sm-4">
-						<h5>Datos Generales:</h5>
+						<h5>Datos Generales aqui:</h5>
 					</div>
 				</div>
 			</div>

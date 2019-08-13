@@ -2,12 +2,14 @@
 @section('content')
 
 <div class="container">
-	<div class="panel panel-group">
-		<div class="panel-default">
-			<div class="panel-heading">
+	{{-- <div class="panel panel-group"> --}}
+		<div class="card mb-5">
+			<div class="card-header">
 				<div class="row">
 					<div class="col-sm-4">
 						<h4>Empleados:</h4>
+					</div>
+					<div class="col-sm-4">
 					</div>
 					<div class="col-sm-4 text-center">
 						<a class="btn btn-success" href="{{ route('empleados.create') }}">
@@ -16,7 +18,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				<div class="row">
 					<div class="col-sm-12">
 						@if(count($empleados) > 0)
@@ -70,7 +72,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	{{-- </div> --}}
 </div>
 <script>
 $(document).ready(function() {

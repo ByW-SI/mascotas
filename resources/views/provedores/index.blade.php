@@ -3,8 +3,8 @@
 
 <div class="container">
 	<div role="application" class="panel panel-group">
-		<div class="panel-default">
-			<div class="panel-heading">
+		<div class="card mb-5">
+			<div class="card-header">
 				<div class="row">
 					<div class="col-sm-4">
 						<h4>Proveedores:</h4>
@@ -20,7 +20,7 @@
 					@endforeach --}}
 				</div>
 			</div>
-			<div id="datos" name="datos" class="panel-body">
+			<div id="datos" name="datos" class="card-body">
 				<div class="col-sm-12">
 					@if(count($provedores) == 0)
 						<h4>Aún no hay proveedores agregados.</h4>
@@ -71,5 +71,36 @@
 		</div>
 	</div>
 </div>
+
+<script>
+$(document).ready(function() {
+	$('#empleados').DataTable({
+		'language':{
+	"sProcessing":     "Procesando...",
+	"sLengthMenu":     "Mostrar _MENU_ registros",
+	"sZeroRecords":    "No se encontraron resultados",
+	"sEmptyTable":     "Ningún dato disponible en esta tabla",
+	"sInfo":           "Mostrando registros del _START_ al _END_ de un total de _TOTAL_ registros",
+	"sInfoEmpty":      "Mostrando registros del 0 al 0 de un total de 0 registros",
+	"sInfoFiltered":   "(filtrado de un total de _MAX_ registros)",
+	"sInfoPostFix":    "",
+	"sSearch":         "Buscar:",
+	"sUrl":            "",
+	"sInfoThousands":  ",",
+	"sLoadingRecords": "Cargando...",
+	"oPaginate": {
+		"sFirst":    "Primero",
+		"sLast":     "Último",
+		"sNext":     "Siguiente",
+		"sPrevious": "Anterior"
+	},
+	"oAria": {
+		"sSortAscending":  ": Activar para ordenar la columna de manera ascendente",
+		"sSortDescending": ": Activar para ordenar la columna de manera descendente"
+	}
+}
+	});
+} );
+</script>
 
 @endsection

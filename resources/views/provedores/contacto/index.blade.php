@@ -27,8 +27,8 @@
 			{{-- @endif
 			@endforeach --}}
 		</ul>
-		<div class="panel panel-default">
-			<div class="panel-heading">
+		<div class="card mb-5">
+			<div class="card-header">
 				<div class="row">
 					<div class="col-sm-4">
 						<h5>Contactos:</h5>
@@ -40,7 +40,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="panel-body">
+			<div class="card-body">
 				@if($contactos->count() == 0)
 				<h3>Aún no tiene contactos.</h3>
 				@else

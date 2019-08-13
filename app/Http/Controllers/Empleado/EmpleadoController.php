@@ -44,9 +44,15 @@ class EmpleadoController extends Controller
     public function create()
     {
         // if($this->hasComponent('crear empleado')) {
-        return view('empleado.create');
+        // return view('empleado.create');
         // }
         // return redirect()->route('denegado');
+        $edit = false;
+        $empleado = new Empleado;
+        // $puestos = TipoPuesto::get();
+        // $numero=Empleado::orderBy('created_at', 'desc')->pluck('id')->first();
+        return view('empleado.create',['empleado'=>$empleado,'edit'=>$edit]);
+    
     }
 
     public function store(Request $request)
